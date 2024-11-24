@@ -1,0 +1,61 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Sprites Box */
+  .sprites-box {
+    display: inline-block;
+    background-color: white; /* White box around the sprites */
+    padding: 60px; /* 3x larger padding */
+    border-radius: 20px; /* Slightly larger rounded corners */
+    margin-bottom: 40px;
+  }
+  
+  .sprites {
+    display: flex;
+    align-items: center;
+    gap: 120px; /* 3x larger gap between sprites */
+    position: relative;
+  }
+  
+  /* Divider Line */
+  .divider {
+    width: 6px; /* 3x thicker line */
+    height: 300px; /* 2x taller line */
+    background-color: rgba(0, 0, 0, 0.2); /* Faint black line */
+  }
+  
+  /* Sprites */
+  .sprite {
+    width: 300px; /* 3x larger sprite size */
+    height: auto;
+  }
+  
+  .shadow {
+    opacity: 0.7; /* Slight transparency for the shadow sprite */
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 7rem; /* 3x larger text size */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; /* Slightly wider letter spacing */
+    font-family: 'Bokor', cursive; /* Use Bokor font */
+    margin-top: 20px;
+  }
+  
